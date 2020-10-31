@@ -1,7 +1,7 @@
 ---
 title: "About"
 permalink: /about/
-author_profile: false
+author_profile: true
 header:
   image: "/images/andre.png"
 ---
@@ -9,3 +9,5 @@ header:
 balablabl lbab lbablablabla
 
 blablablalba
+
+balbalab
