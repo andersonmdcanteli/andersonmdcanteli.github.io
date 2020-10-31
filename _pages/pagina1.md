@@ -1,11 +1,11 @@
 ---
-title: "About"
-permalink: /about/
+layout: archives
+permalink: /pagina1/
+title: "Pagina 1"
+author_profile: true
 header:
   image: "/images/andre.png"
 ---
-
-blabbalbllbalbalalbba bablablalb balbablalbabl blabbalbllbalbalalbba
 
 {% include base_path %}
 {% include group-by-array collection=site.posts field="tags" %}
