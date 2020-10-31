@@ -4,5 +4,5 @@ permalink: /pagina1/
 title: "Pagina 1"
 author_profile: true
 header:
-  image: "/images/andre.png"
+  image: "/images/dog.png"
 ---
