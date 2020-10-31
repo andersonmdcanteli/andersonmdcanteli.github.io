@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Anderson Canteli"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/bio-photo.jpg"
   bio              : "Still figuring that out"
   location         : "Curitiba-PR (Brazil)"
   email            :
