@@ -3,12 +3,13 @@ title: "About"
 permalink: /about/
 author_profile: false
 header:
-  image: "/images/bio-photo.png"
+  image: "/images/bio-photo.jpg"
 ---
 
 
 
-# Resume
+## Resume
+
 During the graduation in Food Engineering (UEM), I worked with the
 development of bakery products and sensory analysis (cookies and salted panettone), in
 addition to being a monitor in the unit operations discipline. I started my professional
