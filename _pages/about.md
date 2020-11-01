@@ -6,7 +6,7 @@ header:
   image: "/images/chess.jpg"
 ---
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/photo-eu.jpg">
+<img src="{{ site.url }}{{ site.baseurl }}/images/photo_eu.jpg">
 
 
 ## Resume
