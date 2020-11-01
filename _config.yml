@@ -97,7 +97,7 @@ author:
   avatar           : "/images/bio-photo.jpg"
   bio              : "Still figuring that out"
   location         : "Curitiba-PR (Brazil)"
-  email            : "andersonmdcanteli@gmail.com"
+  email            : # "andersonmdcanteli@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -117,6 +117,12 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UCf96X2h-DrdY4Oc615fZBew/"
+    - label: "Linkedin"
+      icon: "fas fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/anderson-canteli-7431624a"      
 
 # Site Footer
 footer:
@@ -142,6 +148,9 @@ footer:
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UCf96X2h-DrdY4Oc615fZBew/"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://andersoncanteli.wordpress.com/"
 
 # Reading Files
 include:
