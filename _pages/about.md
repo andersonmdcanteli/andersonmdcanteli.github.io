@@ -1,11 +1,12 @@
 ---
 title: "About"
 permalink: /about/
-author_profile: false
+author_profile: true
 header:
   image: "/images/chess.jpg"
 ---
 
+<img src="{{ site.url }}{{ site.baseurl }}/images/photo-eu.jpg">
 
 
 ## Resume
