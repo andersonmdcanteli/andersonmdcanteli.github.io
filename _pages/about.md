@@ -3,7 +3,7 @@ title: "About"
 permalink: /about/
 author_profile: false
 header:
-  image: "/images/bio-photo.jpg"
+  image: "/images/bio-photo.jpg" width="167" height="473"
 ---
 
 
