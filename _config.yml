@@ -121,8 +121,8 @@ author:
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UCf96X2h-DrdY4Oc615fZBew/"
     - label: "Linkedin"
-      icon: "fas fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/anderson-canteli-7431624a"      
+      icon: "fas fa-fw fa-linkedin-square"
+      url: "https://www.linkedin.com/in/anderson-canteli-7431624a"
 
 # Site Footer
 footer:
