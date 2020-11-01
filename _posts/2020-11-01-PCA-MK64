@@ -1,0 +1,25 @@
+title: "Principal Component Analysis with Python and sklearn"
+data: 2020-11-01
+tags: [PCA, Mario kart, data analyises]
+header:
+  image: "/images/chess.jpg"
+excerpt: "Let’s play Mario Kart 64?"
+---
+
+# Introduction
+
+Many of you have probably played Mario Kart 64, and each of you has a favorite character! I always played with Wario, which is certainly the best one 😊.
+{: .text-justify}
+In this game, we have 8 characters from the Nintendo franchise: Mario, Luigi, Princess Peach, Toad, Yoshi, Donkey Kong, Wario and Bowser. In general, we have the subdivision between light karts (Peach, Toad and Yoshi), medium karts (Mario and Luigi) and heavy karts (DK, Wario and Bowser), where it is common sense to say that the lighter ones have higher acceleration and the heavier ones have a higher speed; the medium ones are considered karts intermediaries.
+{: .text-justify}
+But, is it really that? Why Yoshi is from the light class and not from average class? Are Wario and Bowser the same? You probably never asked yourself these things before, but I asked myself and decided to investigate!
+{: .text-justify}
+To try to figure this out, we need to have some measurements for each kart. After a search on the internet, I found on [this site](https://gamefaqs.gamespot.com/n64/197860-mario-kart-64 / faqs / 27391) some features of each player. The features are:
+{: .text-justify}
+1. Time (s) required to reach 30 km/h;
+2. Time (s) required to reach 50 km/h;
+3. Maximum speed (km/h);
+4. Time (s) required to reach maximum speed.
+
+Unfortunately, I did not find information on the handling of each kart, which it would be important information for the analysis that we are going to do. The data is shown in Table 1.
+{: .text-justify}
