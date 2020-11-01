@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Anderson Canteli"
   avatar           : "/images/bio-photo.jpg"
-  bio              : "Still figuring that out"
+  bio              : "Food engineer, Scientific researcher, Creative and Inventor"
   location         : "Curitiba-PR (Brazil)"
   email            : # "andersonmdcanteli@gmail.com"
   links:
@@ -150,7 +150,7 @@ footer:
       url: "https://www.youtube.com/channel/UCf96X2h-DrdY4Oc615fZBew/"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://andersoncanteli.wordpress.com/"
+      # url: "https://andersoncanteli.wordpress.com/"
 
 # Reading Files
 include:
