@@ -230,7 +230,7 @@ body {
   font-family: $caption-font-family;
   font-size: $type-size-7;
   background: #000;
-  text-align: justify-content;
+  text-align: justify;
   z-index: 5;
   opacity: 0.5;
   border-radius: $border-radius 0 0 0;
@@ -398,7 +398,7 @@ body {
   color: $muted-text-color;
   font-size: 0.6em;
   text-transform: uppercase;
-  text-align: right;
+  text-align: justify;
   text-decoration: none;
 }
 
