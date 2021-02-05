@@ -53,7 +53,7 @@ A hipótese nula do teste é que os dados seguem, pelo menos aproximadamente, a 
 
 Utilizamos o termo “uma” distribuição Normal, pois temos infinitas distribuições Normais, uma para cada par de média e desvio padrão.
 
-Para testar a hipótese do teste precisamos estimar a estatística do teste de Shapiro-Wilk (\\(D_{S-W}\\)), e compara-la com o valor tabelado (\\(D_{S-W}^{critico}\\)) para um determinado nível de confiança. Os valores tabelados foram originalmente descritos no livro “Biometrica Tables for Statisticians, Vol 2” <a href="#pearson-hartley">(Pearson & Hartley, 1972)</a>, embora eu não tenha tido acesso ao original para confirmar a informação. Os valores tabelados para amostras com até 10 observações (99, 95 e 90% de confiança) estão listados na Tabela 1. Você encontra a tabela  completa no <a href="#portal-action">Portal Action</a> ou pode baixar ela no formato .xlsx <a href="#">clicando aqui</a>.
+Para testar a hipótese do teste precisamos estimar a estatística do teste de Shapiro-Wilk (\\(D_{S-W}\\)), e compara-la com o valor tabelado (\\(D_{S-W}^{critico}\\)) para um determinado nível de confiança. Os valores tabelados foram originalmente descritos no livro “Biometrica Tables for Statisticians, Vol 2” <a href="#pearson-hartley">(Pearson & Hartley, 1972)</a>, embora eu não tenha tido acesso ao original para confirmar a informação. Os valores tabelados para amostras com até 10 observações (99, 95 e 90% de confiança) estão listados na Tabela 1. Você encontra a tabela  completa no <a href="#portal-action">Portal Action</a> ou pode baixar ela no formato .xlsx <a href = "/assets/files/shapiro-wilk/valores_criticos.xlsx" download="valores_criticos.xlsx">clicando aqui</a>.
 {: .text-justify}
 
 
@@ -128,7 +128,7 @@ O valor de \\(a\\) é um valor tabelado e que necessita que os valores de \\(x\\
 | 6 | - |	- |	- |	- |	- |	- |	- |	- |	- |	- |	0,0303 |	0,0539 |
 
 
-Você pode baixar a tabela completa (arquivo ".xlsx") com os valores de \\(a\\) <a href="#">aqui</a>.
+Você pode baixar a tabela completa (arquivo ".xlsx") com os valores de \\(a\\) <a href = "/assets/files/shapiro-wilk/valores_a.xlsx" download="valores_a.xlsx">clicando aqui</a>.
 {: .text-justify}
 
 <h2><a style="color:black" id="exemplonumerico">Exemplo numérico</a></h2>
@@ -324,6 +324,10 @@ Por enquanto o vídeo está hospedado no YouTube e está todo em português-br. 
 </div>
 
 
+Você pode baixar a planilha desenvolvida no vídeo acima <a href = "/assets/files/shapiro-wilk/Shapiro_Wilk.xlsx" download="Shapiro_Wilk.xlsx">clicando aqui</a>.
+{: .text-justify}
+
+
 <h2><a style="color:black" id="tutorialpython">Teste de Shapiro-Wilk: Tutorial utilizando Python</a></h2>
 
 Agora vamos a um tutorial utilizando minha linguagem de programação favorita, o Python. Neste caso, eu utilizei a versão 3.6 do Python, obtida com a distribuição Anaconda, e a IDE utilizada foi o Jupyter Notebook. Mas tem uma opção muito mais simples, que não necessita ter nada instalado no seu PC, o google Colab. Acesse <a href="https://colab.research.google.com">colab.com</a>, crie um novo notebook (você precisa estar logado no Google), e é só seguir os mesmos passos do tutorial.
@@ -383,8 +387,8 @@ else:
 E concluímos que os dados são similares a uma distribuição Normal. Muito mais e fácil utilizando Python do que o Excel (pelo menos é minha opinião 😛)
 {: .text-justify}
 
-Você pode baixar o algoritmo <a href="#">aqui</a>.
-
+Você pode baixar o notebook <a href = "/assets/files/shapiro-wilk/shapiro-wilk-test.ipynb" download="shapiro-wilk-test.ipynb">clicando aqui</a>.
+{: .text-justify}
 
 <h2><a style="color:black" id="referencias">Referências</a></h2>
 
