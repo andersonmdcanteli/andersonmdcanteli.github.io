@@ -286,6 +286,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      # sticky: true
       read_time: true
       comments: # true
       share: true
@@ -300,3 +301,4 @@ defaults:
     values:
       layout: single
       author_profile: true
+      # sticky: true
