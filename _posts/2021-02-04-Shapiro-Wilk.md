@@ -13,13 +13,13 @@ Olá 😀! Neste texto, você irá aprender sobre o teste de Shapiro-Wilk, um te
 {: .text-justify}
 Serão abordados os seguintes tópicos:
 
-* <a style="scroll-margin-top: 100px;" href="#introdução">Introdução (vantagens/desvantagens e características do teste);</a>
 * <a href="#descricao">Descrição do teste;</a>
 * <a href="#exemplonumerico">Exemplo numérico;</a>
 * <a href="#comentarios">Comentários;</a>
 * <a href="#tutorialexcel">Exemplo no Excel;</a>
 * <a href="#tutorialpython">Exemplo no Python;</a>
-* <a style="scroll-margin-top: 200px;" href="#referencias">Referências.</a>
+* <a href="#introdução">Introdução (vantagens/desvantagens e características do teste);</a>
+* <a href="#referencias">Referências.</a>
 
 
 
