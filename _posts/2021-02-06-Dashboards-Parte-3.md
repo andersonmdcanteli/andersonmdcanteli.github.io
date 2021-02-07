@@ -708,7 +708,7 @@ E eu vou aproveitar e colocar nesta mesma Div meu contato, mas sem links.
 Uhuull 😇!Foi uma longa jornada neste estudo para gerar Dashboards. É uma ferramenta com muito potencial, e certamente vou utiliza-la em meus projetos! A interatividade do usuário com os elementos é bem tranquila, e consigo vislumbrar alguns projetos. Só tem de verificar a parte legal do uso comercial do Dash.
 {: .text-justify}
 
-Eu peguei este Dashboard e hospedei ele no Heroku, e funcionou corretamente. Eu segui os passos indicados pelo próprio Heroku para fazer o deployment. A dificuldade que apareceu foi relacionado as versões do NumPy na hora de criar o ambiente virtual, mas uma vez que isso foi solucionado, a foi bem tranquilo.
+Eu peguei este Dashboard e hospedei ele no Heroku, e funcionou corretamente. Eu segui os passos indicados pelo próprio Heroku para fazer o deployment. A dificuldade que apareceu foi relacionado as versões do NumPy na hora de criar o ambiente virtual, mas uma vez que isso foi solucionado, foi bem tranquilo. O problema com o NumPy provavelmente ocorreu devido a versão do Python que utilizei (3.7) não ser compatível com a versão 1.20 do NumPy (isso é um chute, ok?!). Instalando a versão 1.16, o deployment foi tranquilo.  PS: o NumPy é necessário pois ele é uma dependência do Pandas.
 {: .text-justify}
 
  Talvez você consiga acessar ele <a href="#">clicando aqui</a>, mas eu faço atualizações neste site as vezes (utilizo como teste mesmo), então provavelmente o link estará quebrado ou te levará a um outro projeto.
