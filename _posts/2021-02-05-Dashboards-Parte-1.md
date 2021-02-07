@@ -23,7 +23,7 @@ De qualquer forma, precisamos de dados para serem analisados. Ao invés de utili
 {: .text-justify}
 
 O que você irá ver neste estudo?
-* <a href="#versao-python">Parte 1 - Gráficos com matplotlib;</a>
+* <a href="#/Dashboards-Parte-2/">Parte 1 - Gráficos com matplotlib;</a>
   + <a href="#versao-python">Ambiente de trabalho;</a>
   + <a href="#coletando-dados">Aquisição de dados;</a>
   + <a href="#checando-dados">Checando os dados;</a>
@@ -70,7 +70,7 @@ Para desenvolver este exemplo eu utilizei a distribuição Anaconda do Python (3
  <!-- Coletando dados -->
  <h2><a style="color:black" id="coletando-dados">Aquisição de dados</a></h2>
 
-Os dados foram coletados no site do <a href="http://queimadas.dgi.inpe.br/queimadas/portal-static/estatisticas_estados/" targer="_blank">INPE</a>, tendo sido obtido os dados de focos de queimadas separados por <em>biomas</em> brasileiros, no dia 30/01/2021. Também temos dados separados por *estados*, mas estes ficam para uma outra oportunidade.
+Os dados foram coletados no site do <a href="http://queimadas.dgi.inpe.br/queimadas/portal-static/estatisticas_estados/" target="_blank">INPE</a>, tendo sido obtido os dados de focos de queimadas separados por <em>biomas</em> brasileiros, no dia 30/01/2021. Também temos dados separados por *estados*, mas estes ficam para uma outra oportunidade.
 {: .text-justify}
 
 Os dados estão separados em arquivos ".csv" diferentes, mas todos tem o mesmo padrão, como você pode ver de forma exemplificada na imagem baixo:

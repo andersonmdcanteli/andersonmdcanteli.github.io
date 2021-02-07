@@ -193,7 +193,7 @@ pyo.plot(fig,filename = 'scatter-plot.html') # gerando o arquivo
 *Figura 4* - Gráfico de dispersão editado com linhas e pontos gerados com o Plotly para o total de focos de queimadas no bioma Amazônia ao longo de todo o período avaliado.
 {: .text-center}
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-2/plotly-4.png" alt="print do gráfico de linhas e pontos para todos os anos do periodo avaliado que foi gerado com o Plotly." >
+<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-2/plotly-4.PNG" alt="print do gráfico de linhas e pontos para todos os anos do periodo avaliado que foi gerado com o Plotly." >
 {: .text-center}
 
 Você pode ver o <a href="/images/dashboards/parte-2/scatter-plot-4.html" target="_blank">gráfico interativo
@@ -229,7 +229,7 @@ pyo.plot(fig, filename = 'bar-plot.html')# gerando o arquivo
 *Figura 5* - Gráfico de barras gerado com o Plotly.
 {: .text-center}
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-2/plotly-5.png" alt="print do gráfico de barras que foi gerado com o Plotly." >
+<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-2/plotly-5.PNG" alt="print do gráfico de barras que foi gerado com o Plotly." >
 {: .text-center}
 
 Você pode ver o <a href="/images/dashboards/parte-2/bar-plot.html" target="_blank">gráfico interativo
@@ -300,7 +300,7 @@ pyo.plot(fig, filename = 'pie-plot.html')# gerando o arquivo
 *Figura 7* - Gráfico de pizza obtido com o Plotly para o total de focos de queimadas no bioma Amazônia ao longo de todo o período avaliado.
 {: .text-center}
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-2/plotly-7.png" alt="print do gráfico de pizza que foi gerado com o Plotly." >
+<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-2/plotly-7.PNG" alt="print do gráfico de pizza que foi gerado com o Plotly." >
 {: .text-center}
 
 Você pode ver o <a href="/images/dashboards/parte-2/pie-plot.html" target="_blank">gráfico interativo
@@ -334,7 +334,7 @@ pyo.plot(fig, filename = 'pie-plot.html')# gerando o arquivo
 *Figura 8* - Gráfico de pizza obtido com o Plotly para o total de focos de queimadas no bioma Amazônia ao longo de todo o período avaliado.
 {: .text-center}
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-2/plotly-8.png" alt="print do gráfico de pizza que foi gerado com o Plotly." >
+<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-2/plotly-8.PNG" alt="print do gráfico de pizza que foi gerado com o Plotly." >
 {: .text-center}
 
 Você pode ver o <a href="/images/dashboards/parte-2/pie-plot-1.html" target="_blank">gráfico interativo
@@ -374,7 +374,7 @@ pyo.plot(fig, filename = 'pie-plot.html')# gerando o arquivo
 *Figura 9* - Gráfico de rosquinha obtido com o Plotly para o total de focos de queimadas no bioma Amazônia ao longo de todo o período avaliado.
 {: .text-center}
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-2/plotly-9.png" alt="print do gráfico de rosquinha que foi gerado com o Plotly." >
+<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-2/plotly-9.PNG" alt="print do gráfico de rosquinha que foi gerado com o Plotly." >
 {: .text-center}
 
 Você pode ver o <a href="/images/dashboards/parte-2/pie-plot-2.html" target="_blank">gráfico interativo
