@@ -78,8 +78,8 @@ Os dados estão separados em arquivos ".csv" diferentes, mas todos tem o mesmo p
 
 *Figura 1* - Exemplo de como o arquivo "csv" foi construído.
 {: .text-center}
-
-<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/arquivo-csv-01.png" alt="print do arquivo csv original contendo dados históricos de focos de queimadas no bioma Amazônia." >
+<img src="{{ site.url }}{{ site.baseurl }}/images/pca_mk_64/table_df.png" alt="cat" >
+<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte_1/arquivo_csv_01.png" alt="print do arquivo csv original contendo dados históricos de focos de queimadas no bioma Amazônia." >
 {: .text-center}
 
 Algumas alterações são necessárias nestes arquivos. A primeira célula (A1) começa com uma vírgula, o que indica que a primeira coluna não tem nome. Como esta coluna é referente ao Ano, adiciono Ano antes desta primeira vírgula. Também observamos que as 3 últimas linhas correspondem aos valores mínimos, máximos e médios de cada mês, mas não precisamos destes dados (além de ser muito simples de obtê-los caso seja necessário). Então vou remover as linhas 26, 27 e 28. A linha 25 corresponde ao ano de 2021, e como hoje é dia 31/01/2021, os dados não estão consolidados nem do primeiro mês do ano, e por isso vou remover a linha 25 também. Dessa forma, temos dados dos 12 meses em todos os anos do período.
