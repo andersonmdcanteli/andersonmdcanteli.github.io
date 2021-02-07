@@ -23,7 +23,7 @@ De qualquer forma, precisamos de dados para serem analisados. Ao invés de utili
 {: .text-justify}
 
 O que você irá ver neste estudo?
-* <a href="#/Dashboards-Parte-2/">Parte 1 - Gráficos com matplotlib;</a>
+* <a href="/Dashboards-Parte-1/">Parte 1 - Gráficos com matplotlib;</a>
   + <a href="#versao-python">Ambiente de trabalho;</a>
   + <a href="#coletando-dados">Aquisição de dados;</a>
   + <a href="#checando-dados">Checando os dados;</a>

@@ -103,7 +103,7 @@ if __name__ == '__main__':
 *Figura 2* - Dashboard com apenas o título.
 {: .text-center}
 
-<img style="border: solid 1px black" src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-3/dash-board-1.png" alt="Print do dashboard gerado com apenas um titulo" >
+<img style="border: solid 1px black" src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-3/dash-board-1.PNG" alt="Print do dashboard gerado com apenas um titulo" >
 {: .text-center}
 
 Mas o título sozinho dessa forma não fica bom. Para melhorar eu vou expandir esse titulo para um cabeçalho, que vai ter o título e um dropdown, e acima desse dropdown eu vou colocar um aviso para o usuário alterar o Bioma.
@@ -134,7 +134,7 @@ if __name__ == '__main__':
 *Figura 3* - Dashboard com apenas o título modificado.
 {: .text-center}
 
-<img style="border: solid 1px black" src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-3/dash-board-2.png" alt="Print do dashboard gerado com apenas um titulo, mas modificado." >
+<img style="border: solid 1px black" src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-3/dash-board-2.PNG" alt="Print do dashboard gerado com apenas um titulo, mas modificado." >
 {: .text-center}
 
 <h3><a style="color:black" id="dashboards-dropdown">Dropdown</a></h3>
@@ -311,7 +311,7 @@ if __name__ == '__main__':
 *Figura 5* - Dashboard com título do gráfico de dispersão responsivo.
 {: .text-center}
 
-<img style="border: solid 1px black" src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-3/dash-board-4.png" alt="Print do dashboard gerado com título responsivo." >
+<img style="border: solid 1px black" src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-3/dash-board-4.PNG" alt="Print do dashboard gerado com título responsivo." >
 {: .text-center}
 
 Agora vou adicionar o gráfico de dispersão. Dentro do layout e dentro da Div do gráfico de dispersão e abaixo do H3 do título interativo, vou adicionar o elemento de gráfico que é o <code>dcc.Graph()</code>. Vou passar apenas uma id para o gráfico, e vou aproveitar e colocar um estilo na Div que contém o titulo do gráfico e o gráfico, para que o elemento todo fica centralizado e com um espaço nas margens:
@@ -511,7 +511,7 @@ if __name__ == '__main__':
 *Figura 6* - Dashboard com título do gráfico de dispersão responsivo finalizado.
 {: .text-center}
 
-<img style="border: solid 1px black" src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-3/dash-board-5.png" alt="Print do dashboard gerado com título e gráfico de dispersão responsivos." >
+<img style="border: solid 1px black" src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-3/dash-board-5.PNG" alt="Print do dashboard gerado com título e gráfico de dispersão responsivos." >
 {: .text-center}
 
 Os próximos passos para os demais gráficos são exatamente os mesmos, apenas tendo de alterar o gráfico em si.
