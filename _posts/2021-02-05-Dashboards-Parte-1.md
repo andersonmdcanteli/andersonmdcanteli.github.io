@@ -78,8 +78,7 @@ Os dados estão separados em arquivos ".csv" diferentes, mas todos tem o mesmo p
 
 *Figura 1* - Exemplo de como o arquivo "csv" foi construído.
 {: .text-center}
-<img src="{{ site.url }}{{ site.baseurl }}/images/pca_mk_64/table_df.png" alt="cat" >
-<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte_1/arquivo_csv_01.PNG" alt="print do arquivo csv original contendo dados históricos de focos de queimadas no bioma Amazônia." >
+<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/arquivo-csv-01.PNG" alt="print do arquivo csv original contendo dados históricos de focos de queimadas no bioma Amazônia." >
 {: .text-center}
 
 Algumas alterações são necessárias nestes arquivos. A primeira célula (A1) começa com uma vírgula, o que indica que a primeira coluna não tem nome. Como esta coluna é referente ao Ano, adiciono Ano antes desta primeira vírgula. Também observamos que as 3 últimas linhas correspondem aos valores mínimos, máximos e médios de cada mês, mas não precisamos destes dados (além de ser muito simples de obtê-los caso seja necessário). Então vou remover as linhas 26, 27 e 28. A linha 25 corresponde ao ano de 2021, e como hoje é dia 31/01/2021, os dados não estão consolidados nem do primeiro mês do ano, e por isso vou remover a linha 25 também. Dessa forma, temos dados dos 12 meses em todos os anos do período.
@@ -135,7 +134,7 @@ df.head()
 *Figura 2* - DataFrame contendo dos dados de focos de queima nos biomas brasileiros.
 {: .text-center}
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-01.png" alt="print do output gerado ao apresentar o DataFrame com os dados de foco de queimada nos biomas brasileiros" >
+<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-01.PNG" alt="print do output gerado ao apresentar o DataFrame com os dados de foco de queimada nos biomas brasileiros" >
 {: .text-center}
 
 Aparentemente está tudo correto. Vamos começar substituindo o "-" pelo número 0, o que podemos fazer utilizando o método <code>replace()</code> dos DataFrames:
@@ -150,7 +149,7 @@ df.head()
 *Figura 3* - Imagem do DataFrame após substituição do traço pelo zero.
 {: .text-center}
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-02.png" alt="print do output gerado ao apresentar o DataFrame com após substituição do traço pelo número zero." >
+<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-02.PNG" alt="print do output gerado ao apresentar o DataFrame com após substituição do traço pelo número zero." >
 {: .text-center}
 
 
@@ -165,7 +164,7 @@ df.info()
 *Figura 4* - Informações gerais do DataFrame.
 {: .text-center}
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-03.png" alt="print do output gerado ao solicitar informações sobre o DataFrame." >
+<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-03.PNG" alt="print do output gerado ao solicitar informações sobre o DataFrame." >
 {: .text-center}
 
 Temos 138 entradas, subdivididas entres o biomas como esperado, mas chama a atenção o tipo de dados nas colunas. Com exceção das colunas "Ano", "Agosto", "Outubro", "Novembro", "Dezembro" e "Total", que são números inteiros, as demais colunas estão como tipo objeto, o que é estranho pois deveriam ser números inteiros (com exceção da coluna Bioma, que poderia ser um objeto).
@@ -181,7 +180,7 @@ df.describe()
 *Figura 5* - Imagem do resultado obtido ao calcular as estatísticas básicas das colunas numéricas do DataFrame.
 {: .text-center}
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-04.png" alt="print do output gerado ao utilizar o método describe dos DataFrames." >
+<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-04.PNG" alt="print do output gerado ao utilizar o método describe dos DataFrames." >
 {: .text-center}
 
 Como podemos observar, apenas as colunas "Ano", "Agosto", "Outubro", "Novembro", "Dezembro" e "Total", tiveram suas estatísticas calculadas, o que significa que as demais colunas tem valores que não são numéricos. Então vamos verificar o tipo de dado de cada célula do DataFrame.
@@ -202,7 +201,7 @@ for j in range(df.shape[1]): # loop para iterar ao longo das colunas
 *Figura 6* - Tipo da variável contida cada célula do DataFrame, focado no mês de Janeiro.
 {: .text-center}
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-05.png" alt="print do trecho output gerado ao solicitar a impressão do tipo de cada célula, focado no mês de Janeiro." >
+<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-05.PNG" alt="print do trecho output gerado ao solicitar a impressão do tipo de cada célula, focado no mês de Janeiro." >
 {: .text-center}
 
 Como podemos verificar através do mês de Janeiro, as células são na sua maioria do tipo <code>string</code>, e não do tipo <code>int</code> como precisamos. Na verdade, temos uma mistura de células de <code>string</code> e de células do tipo <code>int</code>, onde provavelmente as células <code>int</code> são as células onde o traço foi substituído pelo número zero quando utilizei o método <code>replace()</code>.
@@ -222,7 +221,7 @@ Para conferir, vou utilizar o método <code>info()</code> novamente:
 *Figura 7* - Informações gerais do DataFrame após mudança no tipo de dados das células.
 {: .text-center}
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-06.png" alt="print do output gerado ao apresentar solicitar informações sobre o DataFrame após mudança no tipo de dados das células." >
+<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-06.PNG" alt="print do output gerado ao apresentar solicitar informações sobre o DataFrame após mudança no tipo de dados das células." >
 {: .text-center}
 
 Agora sim temos todas as colunas (exceção da coluna Bioma) com valores numéricos e podemos começar a desenhar os gráficos.
@@ -300,7 +299,7 @@ plt.show() # apresentar o gráfico
 *Figura 8* - Gráfico de dispersão com linhas do Bioma Amazônia no ano de 1988.
 {: .text-center}
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-07.png" alt="Gráfico de dispersão com linhas para o Bioma Amazônia no ano de 1998." >
+<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-07.PNG" alt="Gráfico de dispersão com linhas para o Bioma Amazônia no ano de 1998." >
 {: .text-center}
 
 Mas este gráfico tem apenas os dados de um único ano. Para adicionar os demais anos da série, precisamos iterar ao longo de todos os anos, adicionando um ano após o outro. Para fazer isto, vou substituir onde temos o 0 por um "i" para poder iterar ao longo das linhas. Então, vou colocar todo o código dentro de um loop <code>for</code>, e fazer com que ele percorra todas as linhas do <code>df_aux</code>.
@@ -324,7 +323,7 @@ plt.show() # apresentar o gráfico
 *Figura 9* - Gráfico de dispersão com linhas para o Bioma Amazônia em todo o período.
 {: .text-center}
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-08.png" alt="Gráfico de dispersão com linhas para o Bioma Amazônia em todo o período" >
+<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-08.PNG" alt="Gráfico de dispersão com linhas para o Bioma Amazônia em todo o período" >
 {: .text-center}
 
 Mas repare que a legenda acabou sobrepondo os dados. Para resolver este problema, eu vou colocar a legenda ao lado direito do gráfico (lado de fora). Para isto, basta passar o parâmetro <code> bbox_to_anchor()</code> para o <code>legend()</code>, com uma tupla indicando a posição da legenda:
@@ -337,7 +336,7 @@ plt.legend(bbox_to_anchor = (1.02,1.05))
 *Figura 10* - Gráfico de dispersão com linhas para o Bioma Amazônia em todo o período com legendas ajustadas.
 {: .text-center}
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-09.png" alt="Gráfico de dispersão com linhas para o Bioma Amazônia em todo o período, com legendas ajustadas." >
+<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-09.PNG" alt="Gráfico de dispersão com linhas para o Bioma Amazônia em todo o período, com legendas ajustadas." >
 {: .text-center}
 
 Agora falta gerar os gráficos para os demais biomas. Para isto, basta colocar todo o código em um novo for loop, e iterar ao longo dos diferentes tipos de biomas:
@@ -400,7 +399,7 @@ plt.show()
 *Figura 12* - Gráfico de barras para o total de focos de queimada por ano no bioma Amazônia.
 {: .text-center}
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-16.png" alt="Gráfico de barras para o total de focos de queimada por ano no bioma Amazônia." >
+<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-16.PNG" alt="Gráfico de barras para o total de focos de queimada por ano no bioma Amazônia." >
 {: .text-center}
 
 Mas repare que o eixo x não está com os labels em todos os anos. Para adicionar, é necessário passar explicitamente os valores dos ticks através de <code>plt.xticks(df_aux['Ano'])</code>. Vou aproveitar e adicionar titulo e nome nos eixos.
@@ -421,7 +420,7 @@ plt.show()
 *Figura 13* - Gráfico de barras editado para o total de focos de queimada por ano no bioma Amazônia.
 {: .text-center}
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-17.png" alt="Gráfico de barras editado para o total de focos de queimada por ano no bioma Amazônia." >
+<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-17.PNG" alt="Gráfico de barras editado para o total de focos de queimada por ano no bioma Amazônia." >
 {: .text-center}
 
 Agora vou desenhar um gráfico de barras para cada Bioma, para facilitar a visualização do comportamento dos focos de queimadas ao longo das últimas duas décadas. Para fazer isto, basta colocar o código em um loop <code>for</code> e iterar ao longo dos diferentes tipos de biomas:
@@ -481,7 +480,7 @@ plt.show()
 *Figura 15* - Gráfico de pizza para comparação entre o total de focos de queimadas identificados a cada ano.
 {: .text-center}
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-24.png" alt="Gráfico de pizza comparando o total de focos de queimadas ao longo de cada ano avaliado." >
+<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-24.PNG" alt="Gráfico de pizza comparando o total de focos de queimadas ao longo de cada ano avaliado." >
 {: .text-center}
 
 Mas esta forma não é muito atraente, então vou editar um pouco. Um gráfico de pizza geralmente traz as fatias ordenadas da maior para a menor, o que facilita a visualização do padrão.
@@ -502,7 +501,7 @@ plt.show()
 *Figura 16* - Gráfico de pizza ordenado para comparação entre o total de focos de queimadas identificados a cada ano.
 {: .text-center}
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-25.png" alt="Gráfico de pizza ordenado comparando o total de focos de queimadas ao longo de cada ano avaliado.">
+<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-25.PNG" alt="Gráfico de pizza ordenado comparando o total de focos de queimadas ao longo de cada ano avaliado.">
 {: .text-center}
 
 Mas as cores não estão boas, e é necessário alterar. Poderíamos escolher cores específicas para cada fatia da pizza, mas eu prefiro utilizar um colormap do próprio matplotlib, pois é muito mais simples. Eu vou utilizar o colormap <code>tab20c.colors</code> pois ele tem cores suaves.
@@ -527,7 +526,7 @@ plt.show()
 *Figura 17* - Comparação entre o total de focos de queimadas ao logo de cada ano avaliado através do gráfico de pizza ordenado.
 {: .text-center}
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-26.png" alt="Gráfico de pizza ordenado e editado comparando o total de focos de queimadas ao longo de cada ano avaliado.">
+<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-26.PNG" alt="Gráfico de pizza ordenado e editado comparando o total de focos de queimadas ao longo de cada ano avaliado.">
 {: .text-center}
 
 Também podemos adicionar a porcentagem que cada fatia contribui para a pizza inteira, o que ajuda muito na interpretação visual. Fazemos isto passando o parâmetro <code>autopct = '%1.1f%%'</code>, que vai adicionar dentro de cada fatia a sua respectiva porcentagem.
@@ -553,7 +552,7 @@ plt.show()
 *Figura 18* - Comparação entre o total de focos de queimadas ao logo de cada ano avaliado através do gráfico de pizza ordenado.
 {: .text-center}
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-27.png" alt="Gráfico de pizza ordenado e editado comparando o total de focos de queimadas ao longo de cada ano avaliado.">
+<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-27.PNG" alt="Gráfico de pizza ordenado e editado comparando o total de focos de queimadas ao longo de cada ano avaliado.">
 {: .text-center}
 
 Uma outra coisa interessante a se fazer é adicionar o parâmetro <code class="python">explode</code>. Este parâmetro é uma forma de "puxar" a fatia um pouco para fora da pizza, para realçar alguma coisa. Ele precisa ser uma lista com o mesmo número de fatias. Eu gosto de adicionar essa "puxada" em fatias de número primo.
@@ -576,7 +575,7 @@ plt.show()
 *Figura 19* - Gráfico de pizza ordenado e editado comparando o total de focos de queimadas ao longo de cada ano avaliado.
 {: .text-center}
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-28.png" alt="Gráfico de pizza ordenado e editado comparando o total de focos de queimadas ao longo de cada ano avaliado.">
+<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards/parte-1/print-28.PNG" alt="Gráfico de pizza ordenado e editado comparando o total de focos de queimadas ao longo de cada ano avaliado.">
 {: .text-center}
 
 Agora falta apenas adicionar um título e desenhar o gráfico para os outros biomas. Para os novos desenhos, basta colocar todo o código em um loop <code>for</code> e iterar através dos diferentes biomas:
