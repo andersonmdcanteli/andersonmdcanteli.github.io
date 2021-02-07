@@ -718,7 +718,7 @@ A planilha com os dados pode ser baixada <a href = "/assets/files/dashboards/bio
 
 O notebook final pode ser baixado <a href = "/assets/files/dashboards/queimadas-biomas-parte-3.ipynb" download="queimadas-biomas-parte-3.ipynb">clicando aqui</a>.
 
-De qualquer forma, o código completo esta disponível abaixo e <a href="https://github.com/andersonmdcanteli/dashboard_fires_in_bioma">no meu git-hub</a>.
+De qualquer forma, o código completo (incluindo os outros arquivos necessários para o deployment, como o Procfile, requirments, etc) esta disponível abaixo e <a href="https://github.com/andersonmdcanteli/dashboard_fires_in_bioma">no meu git-hub</a>.
 {: .text-justify}
 
 
