@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Anderson Canteli"
   avatar           : "/images/bio-photo.jpg"
-  bio              : "Food engineer, Scientific researcher, Creative and Inventor"
+  bio              : "Food engineer, Scientific researcher and Self-learner"
   location         : "Curitiba-PR (Brazil)"
   email            : # "andersonmdcanteli@gmail.com"
   links:
@@ -113,7 +113,7 @@ author:
       url: "https://www.facebook.com/canteli2207"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/Aiolia22"
+      url: "https://github.com/andersonmdcanteli"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -135,7 +135,7 @@ footer:
       url: "https://www.facebook.com/canteli2207"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/Aiolia22"
+      url: "https://github.com/andersonmdcanteli"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
