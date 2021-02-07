@@ -711,7 +711,7 @@ Uhuull 😇!Foi uma longa jornada neste estudo para gerar Dashboards. É uma fer
 Eu peguei este Dashboard e hospedei ele no Heroku, e funcionou corretamente. Eu segui os passos indicados pelo próprio Heroku para fazer o deployment. A dificuldade que apareceu foi relacionado as versões do NumPy na hora de criar o ambiente virtual, mas uma vez que isso foi solucionado, foi bem tranquilo. O problema com o NumPy provavelmente ocorreu devido a versão do Python que utilizei (3.7) não ser compatível com a versão 1.20 do NumPy (isso é um chute, ok?!). Instalando a versão 1.16, o deployment foi tranquilo.  PS: o NumPy é necessário pois ele é uma dependência do Pandas.
 {: .text-justify}
 
- Talvez você consiga acessar ele <a href="#">clicando aqui</a>, mas eu faço atualizações neste site as vezes (utilizo como teste mesmo), então provavelmente o link estará quebrado ou te levará a um outro projeto.
+ Talvez você consiga acessar ele <a href="https://andersoncanteli.herokuapp.com/ target="_blank"">clicando aqui</a>, mas eu faço atualizações neste site as vezes (utilizo como teste mesmo), então provavelmente o link estará quebrado ou te levará a um outro projeto.
 {: .text-justify}
 
 A planilha com os dados pode ser baixada <a href = "/assets/files/dashboards/biomas_dados_historicos.csv" download="biomas_dados_historicos.csv">clicando aqui</a>.
