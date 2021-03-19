@@ -153,7 +153,7 @@ df.head()
 *Figura 3* - Estrutura dos dados dispostos no DataFrame de queimadas por estado.
 {: .text-center}
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards-plotly-express/parte-1/print-01.png" alt="captura de tela do DataFrame com os dados de queimadas por estado." >
+<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards-plotly-express/parte-1/print-01.PNG" alt="captura de tela do DataFrame com os dados de queimadas por estado." >
 {: .text-center}
 
 Temos diversas colunas para os dados, que estão divididos em dados de queimadas por mês (colunas 'Janeiro', 'Fevereiro', ..., 'Dezembro'), e também temos uma coluna com o total no ano (coluna 'Total'). Ainda temos colunas com o nome do estado (coluna 'UF') e uma coluna para o nome de cada região ('Regiao'). Cada linha representa um ano da série de dados.
@@ -286,7 +286,7 @@ pyo.offline.plot(fig, filename = "mapa-01.html") # criando o arquivo html
 *Figura 4* - Mapa de focos de queimadas por ano nos diferentes estados brasileiros.
 {: .text-center}
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards-plotly-express/parte-1/print-02.png" alt="print do mapa gerado para o total de focos de queimadas no Brasil." >
+<img src="{{ site.url }}{{ site.baseurl }}/images/dashboards-plotly-express/parte-1/print-02.PNG" alt="print do mapa gerado para o total de focos de queimadas no Brasil." >
 {: .text-center}
 
 Você pode ver o <a href="/images/dashboards-plotly-express/parte-1/mapa-01.html" target="_blank">mapa interativo
