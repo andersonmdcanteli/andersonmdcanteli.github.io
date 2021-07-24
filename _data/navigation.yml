@@ -1,9 +1,12 @@
 # main links
 main:
+  - title: '<span style="text-align: center;">Curso de</span><br><span style="text-align: center">matplotlib</span>'
+    url: /matplotlib-course/
   - title: "About"
     url: /about/
   - title: "404"
     url: /404/
+
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
