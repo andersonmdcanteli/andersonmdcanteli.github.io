@@ -14,5 +14,6 @@ Olá 😀!
 Esse é um projeto para aprender a desenhar gráficos no matplotlib, voltado para pesquisa cientifica. Por enquanto, isto é apenas um esboço do projeto.
 {: .text-justify}
 
-<h2>Índice</h2>
-- <a href="#introducao">Introdução;</a>
+<p style="text-align: center">
+  <a href="/Curso-matplotlib-01" class="btn btn--success">Próximo</a>
+</p>
