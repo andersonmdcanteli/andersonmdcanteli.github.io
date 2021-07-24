@@ -47,4 +47,4 @@ header:
 
   + <a href="/Curso-matplotlib-16">Plano de fundo</a>
 
-  + <a href="/Curso-matplotlib-16">Exercícios resolvidos</a>
+  + <a href="/Curso-matplotlib-17">Exercícios resolvidos</a>
