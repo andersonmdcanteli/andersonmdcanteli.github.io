@@ -26,6 +26,6 @@ Lista de dashboards finalizados:
 
 Lista de posts detalhando o desenvolvimento dos dashboards:
 
-* <a href="/Dashboards-Parte-1" target="_blank">Queimadas nos Biomas brasileiros entre 1998 e 2020</a>
+* <a href="/Dashboards-Parte-1" target="_blank">Queimadas nos biomas brasileiros entre 1998 e 2020</a>
 
 * <a href="/Dashboards-com-Plotly-Express" target="_blank">Queimadas nos estados brasileiros entre 1998 e 2020</a>
