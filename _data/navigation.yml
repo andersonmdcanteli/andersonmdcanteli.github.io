@@ -2,6 +2,8 @@
 main:
   - title: '<span style="text-align: center;">Curso de</span><br><span style="text-align: center">matplotlib</span>'
     url: /matplotlib-course/
+  - title: "Dashboards"
+    url: /dashboards/
   - title: "About"
     url: /about/
   - title: "404"
