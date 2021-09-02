@@ -101,7 +101,7 @@ Em geral, arquivos com extensão `'.png'` não são muito adequados para publica
 
 
 
-<h2><a style="color:black" id="">Número de dpi's</a></h2>
+<h2><a style="color:black" id="numero-dpis">Número de dpi's</a></h2>
 
 Também podemos especificar a densidade de pixels (*dpi*) do gráfico, o que é feito passando um número (`float` ou `int`) através do parâmetro `dpi` em `plt.savefig()`. A quantidade de *dpis* padrão é de 100 dpis.
 {: .text-justify}

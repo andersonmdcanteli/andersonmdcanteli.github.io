@@ -51,10 +51,10 @@ E então aplicar o método da seguinte forma:
 mpl.rc('font', family = 'Arial')
 ```
 
-Em todos os gráficos que forem criados a partir de agora será utilizada a fonte `Arial` ao invés da fonte `DejaVu Sans`. Por exemplo:
+Em todos os gráficos que forem criados a partir de agora será utilizada a fonte <span style="font-family: Arial">Arial</span> ao invés da fonte <span style="font-family: DejaVu Sans">DejaVu Sans</span>. Por exemplo:
 {: .text-justify}
 
-*Figura 1* - Gráfico de dispersão desenhado com a fonte `Arial`.
+*Figura 1* - Gráfico de dispersão desenhado com a fonte <span style="font-family: Arial">Arial</span>.
 {: .text-center}
 <img style="border: solid 1px black" src="{{ site.url }}{{ site.baseurl }}/images/curso-matplotlib/12/grafico-dispersao-tipos-fonte-01.png" alt="gráfico de dispersão desenhado utilizando o **matplotlib** com a fonte alterada para Arial" >
 {: .text-center}
@@ -62,7 +62,7 @@ Em todos os gráficos que forem criados a partir de agora será utilizada a font
 <br>
 
 
-Observe que todos os elementos de texto/numéricos agora estão na fonte Arial. Um inconveniente desta forma de alterar o fonte, é que para retornar ao padrão temos de aplicar o método novamente, mas com a fonte padrão (DejaVu Sans) ou reiniciar todo o notebook.
+Observe que todos os elementos de texto/numéricos agora estão na fonte <span style="font-family: Arial">Arial</span>. Um inconveniente desta forma de alterar o fonte, é que para retornar ao padrão temos de aplicar o método novamente, mas com a fonte padrão (<span style="font-family: DejaVu Sans">DejaVu Sans</span>) ou reiniciar todo o notebook.
 {: .text-justify}
 
 Para saber quais fontes temos disponíveis para utilizar, utilizamos o `mpl.font_manager.get_fontconfig_fonts()`, que retorna uma `list` com o caminho de todos os arquivos de fontes disponíveis.
@@ -92,14 +92,14 @@ len(nomes_fontes)
 Quais fontes estarão disponíveis irá depender de uma série de fatores, como a versão do Python, a versão do **matplotlib** e sistema operacional utilizado.
 {: .text-justify}
 
-Para alterar a fonte de `Arial` para `Times New Roman`, basta aplicar o método `mpl.rc()` novamente, mas passando o nome da nova fonte para o parâmetro `font`:
+Para alterar a fonte de <span style="font-family: Arial">Arial</span> para <span style="font-family: Times New Roman">Times New Roman</span>, basta aplicar o método `mpl.rc()` novamente, mas passando o nome da nova fonte para o parâmetro `font`:
 {: .text-justify}
 
 ```python
 mpl.rc('font', family = 'Times New Roman')
 ```
 
-Agora, todos os gráficos desenhados terão a fonte `Times New Roman` como fonte para as letras e números. Por exemplo:
+Agora, todos os gráficos desenhados terão a fonte <span style="font-family: Times New Roman">Times New Roman</span> como fonte para as letras e números. Por exemplo:
 
 ```python
 plt.figure(figsize=(8,6))
@@ -112,7 +112,7 @@ plt.title("Relação entre peso e altura de diversas raças de cachorro", pad=40
 plt.show()
 ```
 
-*Figura 2* - Gráfico de dispersão desenhado com a fonte `Times New Roman`.
+*Figura 2* - Gráfico de dispersão desenhado com a fonte <span style="font-family: Times New Roman">Times New Roman</span>.
 {: .text-center}
 <img style="border: solid 1px black" src="{{ site.url }}{{ site.baseurl }}/images/curso-matplotlib/12/grafico-dispersao-tipos-fonte-02.png" alt="gráfico de dispersão desenhado utilizando o **matplotlib** com a fonte alterada para Times New Roman" >
 {: .text-center}
@@ -120,7 +120,7 @@ plt.show()
 <br>
 
 
-<h2><a style="color:black" id="">Tamanho da fonte</a></h2>
+<h2><a style="color:black" id="tamanho-fonte">Tamanho da fonte</a></h2>
 
 <img style="border: solid 1px black" src="{{ site.url }}{{ site.baseurl }}/images/curso-matplotlib/generico/banner.png" alt="banner provisório " >
 {: .text-center}

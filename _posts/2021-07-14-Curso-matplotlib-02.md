@@ -66,11 +66,11 @@ plt.show() # apresentando o gráfico
 
 *Figura 2* - Gráfico gerado com a orientação a objetos do **matplotlib**.
 {: .text-center}
-<img style="border: solid 1px black" src="{{ site.url }}{{ site.baseurl }}/images/curso-matplotlib/01/orientacao-objetos.png" alt="grafico de linhas desenhado utilizando o **matplotlib** com o a orientação a objetos" >
+<img style="border: solid 1px black" src="{{ site.url }}{{ site.baseurl }}/images/curso-matplotlib/01/orientacao-objetos.png" alt="gráfico de linhas desenhado utilizando o **matplotlib** com o a orientação a objetos" >
 {: .text-center}
 
 
-Nós iremos utilizar o estilo direto de criar gráficos em toda a base do curso, de forma que você compreenda o funcionamento do **matplotlib**, pois esta é uma forma mais simples. Utilizar a orientação a objetos é mais eficiente, entretanto, requer maior conhecimento em Python, e por isso, vamos utilizar esta forma apenas quando necessário.
+Nós iremos utilizar o estilo direto de criar gráficos em toda a base do curso, de forma que você compreenda o funcionamento do **matplotlib**, pois esta é uma forma mais simples. Utilizar a orientação a objetos é mais eficiente, entretanto, requer maior conhecimento em Python, e por isso, vamos utilizar esta forma mais a frente do curso.
 {: .text-justify}
 
 

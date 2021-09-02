@@ -20,7 +20,7 @@ Os exercícios resolvidos tem como objetivo consolidar os conhecimentos adquirid
 
 [Click aqui](https://github.com/andersonmdcanteli/matplotlib-course/blob/main/curso/grafico-dispersao/aula/Exerc%C3%ADcio-Resolvido-1.ipynb) para acessar o notebook com os dados do Exercício Resolvido 1
 
-*Vídeo 2* - Resolução do exercício	 2.
+*Vídeo 2* - Resolução do exercício	2.
 {: .text-center}
 <iframe></iframe>
 
@@ -50,10 +50,10 @@ Os exercícios resolvidos tem como objetivo consolidar os conhecimentos adquirid
 
 <br>
 
-Com isso, finalizamos esta primeira parte de constução de gráficos com o **matplotlib**. Vimos basicamente como gerar um gráfico de dispersão e como edita-lo. As principais edições de qualquer tipo de gráfico são iguais ou muito parecidas com o que vimos aqui.
+Com isso, finalizamos esta primeira parte de construção de gráficos com o **matplotlib**. Vimos basicamente como gerar um gráfico de dispersão e como edita-lo. As principais edições de qualquer tipo de gráfico são iguais ou muito parecidas com o que vimos aqui.
 {: .text-justify}
 
-Na próxima aula, iremos ver como desenhar ***gráficos de dipersão com linhas***.
+Na próxima aula, iremos ver como desenhar ***gráficos de dispersão com linhas***.
 
 
 <p style="text-align: center">
