@@ -14,7 +14,7 @@ locale: "pt-br"
 Os marcadores tem uma grande importância no entendimento dos gráficos. Dependendo do tipo de dado, é preferivel utilizar algum tipo de marcador, que talvez não seja adequado para outros tipos de dados. Além disso, utilizar marcadores diferentes é uma das melhores formas de diferenciar séries diferentes em um mesmo gráfico.
 {: .text-justify}
 
-<h2><a style="color:black" id="">Alterando o tipo do marcador</a></h2>
+<h2><a style="color:black" id="alterando-marcador">Alterando o tipo do marcador</a></h2>
 
 <img style="border: solid 1px black" src="{{ site.url }}{{ site.baseurl }}/images/curso-matplotlib/generico/banner.png" alt="banner provisório " >
 {: .text-center}
@@ -36,12 +36,13 @@ Os marcadores mais utilizados são:
 Na Figura abaixo você pode visualizar todos os marcadores disponíveis:
 
 
-<img style="float: center;" src="https://raw.githubusercontent.com/andersonmdcanteli/matplotlib-course/main/auxiliary-scripts/matplotlib-all-markers/matplotlib_markers.png" alt="Gráfico de dispersão mostrando os diferentes maracadores" width="800">
+<img style="float: center;" src="https://raw.githubusercontent.com/andersonmdcanteli/matplotlib-course/main/auxiliary-scripts/matplotlib-all-markers/matplotlib_markers.png" alt="Gráfico de dispersão mostrando os diferentes marcadores" width="800">
+{: .text-center}
 
 
 O script utilizado para desenhar o gráfico acima pode ser acessado [neste link](https://github.com/andersonmdcanteli/matplotlib-course/blob/main/auxiliary-scripts/matplotlib-all-markers/matplotlib-all-markers.ipynb).
 
-[Documentação](https://matplotlib.org/stable/api/markers_api.html).
+Você encontra maiores informações na [documentação](https://matplotlib.org/stable/api/markers_api.html).
 
 
 Por exemplo, para deixar os marcadores em formato de diamante:
@@ -83,7 +84,7 @@ Veremos como deixar os marcadores com símbolos diferentes mais a frente.
 
 
 
-<h2><a style="color:black" id="">Alterando a cor da linha do marcador (bordas do marcador)</a></h2>
+<h2><a style="color:black" id="bordas-marcador">Alterando a cor da linha do marcador (bordas do marcador)</a></h2>
 
 <img style="border: solid 1px black" src="{{ site.url }}{{ site.baseurl }}/images/curso-matplotlib/generico/banner.png" alt="banner provisório " >
 {: .text-center}
@@ -150,7 +151,7 @@ plt.show()
 <br>
 
 
-<h2><a style="color:black" id="">Alterando a espessura da linha do marcador (espessura da borda)</a></h2>
+<h2><a style="color:black" id="espessura-linha">Alterando a espessura da linha do marcador (espessura da borda)</a></h2>
 
 <img style="border: solid 1px black" src="{{ site.url }}{{ site.baseurl }}/images/curso-matplotlib/generico/banner.png" alt="banner provisório " >
 {: .text-center}
@@ -217,7 +218,7 @@ plt.show()
 <br>
 
 
-<h2><a style="color:black" id="">Alterando a cor de preenchimento do marcador</a></h2>
+<h2><a style="color:black" id="cor-preenchimento">Alterando a cor de preenchimento do marcador</a></h2>
 
 <img style="border: solid 1px black" src="{{ site.url }}{{ site.baseurl }}/images/curso-matplotlib/generico/banner.png" alt="banner provisório " >
 {: .text-center}

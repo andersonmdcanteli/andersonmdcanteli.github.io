@@ -14,7 +14,7 @@ locale: "pt-br"
 Os elementos de texto (legendas e títulos) são muito importantes para um gráfico, pois é através deles que dizemos ao leitor o que cada elemento gráfico representa.
 {: .text-justify}
 
-<h2><a style="color:black" id="">Legendas</a></h2>
+<h2><a style="color:black" id="legendas">Legendas</a></h2>
 
 <img style="border: solid 1px black" src="{{ site.url }}{{ site.baseurl }}/images/curso-matplotlib/generico/banner.png" alt="banner provisório " >
 {: .text-center}
@@ -76,7 +76,7 @@ Devemos inserir a legendas apenas ***após*** a criação dos elementos anterior
 {: .text-justify}
 
 
-<h2><a style="color:black" id="">Posição das Legendas no gráfico</a></h2>
+<h2><a style="color:black" id="posicao-legendas">Posição das Legendas no gráfico</a></h2>
 
 Podemos especificar o local em que a legenda será inserida no gráfico, o que é feito passando a **posição** desejada através do parâmetro `loc` em `plt.legend()`. Esta posição pode ser definida através de uma `str` ou através de um número `int` que se refere a posição desejada.
 {: .text-justify}
@@ -100,8 +100,8 @@ Temos 10 posições disponíveis, sendo que a `loc='best'` é a posição padrã
 
 Visualmente:
 
-<img style="float: center;" src="https://raw.githubusercontent.com/andersonmdcanteli/matplotlib-course/main/auxiliary-scripts/matplotlib-all-legend-positions/legend-positions.png" alt="Gráfico apresentando as posiçoespadrão disponíveis para alocar a legenda" width="800">
-
+<img style="float: center;" src="https://raw.githubusercontent.com/andersonmdcanteli/matplotlib-course/main/auxiliary-scripts/matplotlib-all-legend-positions/legend-positions.png" alt="Gráfico apresentando as posições padrão disponíveis para alocar a legenda" width="800">
+{: .text-center}
 
 O notebook utilizado para desenhar a imagem acima pode ser acessado [clicando aqui](https://github.com/andersonmdcanteli/matplotlib-course/blob/main/auxiliary-scripts/matplotlib-all-legend-positions/matplotlib-legend-positions.ipynb).
 
@@ -123,20 +123,20 @@ plt.show()
 <br>
 
 
-Também temos a possibilidade de **especificar a posição** da legenda de forma ***arbitrária***, o que é feito passando uma `tuple` com a posição desejada para `x` e `y`para o parâmetro `bbox_to_anchor` em `plt.legend()`.
+Também temos a possibilidade de **especificar a posição** da legenda de forma ***arbitrária***, o que é feito passando uma `tuple` com a posição desejada para `x` e `y` para o parâmetro `bbox_to_anchor` em `plt.legend()`.
 {: .text-justify}
 
 ```python
 plt.legend(bbox_to_anchor=(x,y))
 ```
 
-Por exemplo, para adicionar a legenda em `x = 0` e `y = 0`:
+Por exemplo, para adicionar a legenda em `x = 0.1` e `y = 0.1`:
 
 ```python
 plt.figure(figsize=(8,6))
-plt.scatter(x,y, s = 100.1, marker = "D", edgecolors = 'k', facecolors='none',
+plt.scatter(x, y, s = 100.1, marker = "D", edgecolors = 'k', facecolors = 'none',
             label="Raças de cachorros")
-plt.legend(bbox_to_anchor=(0,0))
+plt.legend(bbox_to_anchor = (0.1,0.1))
 plt.show()
 ```
 
@@ -166,11 +166,11 @@ plt.show()
 
 <br>
 
-Você encontra mais detalhes sobre o posicionamento das legendas [na documentação](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.legend.html).
+Você encontra mais detalhes sobre o posicionamento das legendas [na documentação](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.legend.html). Iremos voltar a abordar o caso do posicionamento das legendas fora do gráfico quando formos exportar o gráfico.
+{: .text-justify}
 
 
-
-<h2><a style="color:black" id="">Tamanho da fonte da legenda no gráfico</a></h2>
+<h2><a style="color:black" id="tamanho-legenda">Tamanho da fonte da legenda no gráfico</a></h2>
 
 
 <img style="border: solid 1px black" src="{{ site.url }}{{ site.baseurl }}/images/curso-matplotlib/generico/banner.png" alt="banner provisório " >
@@ -178,6 +178,7 @@ Você encontra mais detalhes sobre o posicionamento das legendas [na documentaç
 
 
 É possível alterar o tamanho da fonte da legenda diretamente em `plt.legend()`. Basta passar um número (`int` ou `float`) para o `plt.legend()` através do parâmetro `fontsize`:
+{: .text-justify}
 
 ```python
 plt.figure(figsize=(8,6))
@@ -216,7 +217,7 @@ plt.show()
 </div>
 
 
-<h2><a style="color:black" id="">Título ao eixo x</a></h2>
+<h2><a style="color:black" id="titulo-eixo-x">Título do eixo x</a></h2>
 
 
 <img style="border: solid 1px black" src="{{ site.url }}{{ site.baseurl }}/images/curso-matplotlib/generico/banner.png" alt="banner provisório " >
@@ -298,9 +299,9 @@ plt.show()
 
 <br>
 
-Você encontra mais informações na [Documentação](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.xlabel.html).
+Você encontra mais informações sobre o `plt.xlabel()` na [documentação](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.xlabel.html).
 
-<h2><a style="color:black" id="">Título ao eixo y</a></h2>
+<h2><a style="color:black" id="titulo-eixo-y">Título do eixo y</a></h2>
 
 
 <img style="border: solid 1px black" src="{{ site.url }}{{ site.baseurl }}/images/curso-matplotlib/generico/banner.png" alt="banner provisório " >
@@ -384,10 +385,10 @@ plt.show()
 
 <br>
 
-Mais informações sobre o `plt.ylabel()` podem ser encontradas na [Documentação](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.ylabel.html).
+Mais informações sobre o `plt.ylabel()` podem ser encontradas na [documentação](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.ylabel.html).
 
 
-<h2><a style="color:black" id="">Título no gráfico</a></h2>
+<h2><a style="color:black" id="titulo-grafico">Título do gráfico</a></h2>
 
 <img style="border: solid 1px black" src="{{ site.url }}{{ site.baseurl }}/images/curso-matplotlib/generico/banner.png" alt="banner provisório " >
 {: .text-center}
@@ -474,7 +475,7 @@ plt.show()
 <br>
 
 
-Você encontra mais informações sobre o `plt.title()` na [Documentação](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.title.html).
+Você encontra mais informações sobre o `plt.title()` na [documentação](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.title.html).
 
 
 <form id = "quiz" name = "quiz2">

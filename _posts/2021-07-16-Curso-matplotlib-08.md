@@ -16,7 +16,7 @@ locale: "pt-br"
 O **matplotlib** permite a edição dos pontos, ou marcadores, de um gráfico de dispersão de forma bastante simples. Esta edição é feita através de alguns parâmetros que são adicionados em `plt.scatter()`. A edição dos marcadores permite uma melhor representação das informações contidas nos gráficos.
 {: .text-justify}
 
-Por exemplo, caso tenhamos dois grupos diferentes, podemos separa-los por cores, facilitando a sua interpretação. Com utilidade similar, também podemos utilizar diferentes marcadores. O tamanho do marcadores também pode ser utilizado para representar o valor de uma variável que temos em um conjunto de dados (gráfico de bolhas).
+Por exemplo, caso tenhamos dois grupos diferentes, podemos separa-los por cores, facilitando a sua interpretação. Com utilidade similar, também podemos utilizar diferentes marcadores. O tamanho dos marcadores também pode ser utilizado para representar o valor de uma variável que temos em um conjunto de dados (gráfico de bolhas).
 {: .text-justify}
 
 <h2><a style="color:black" id="cor-marcadores">Alterando a cor do marcador</a></h2>

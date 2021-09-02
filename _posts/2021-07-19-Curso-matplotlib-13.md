@@ -15,7 +15,7 @@ locale: "pt-br"
 <br>
 
 
-Em muitos casos vamos ter dois ou mais conjuntos de dados para serem plotados no gráfico, ou seja, várias séries de `x` e `y`. No exemplo que esta sendo utilizado, com dados relacionando peso e altura dos cachorros, temos várias raças, e seria importante diferenciar as raças no gráfico.
+Em muitos casos vamos ter dois ou mais conjuntos de dados para serem plotados no gráfico, ou seja, várias séries de `x` e `y` (ou várias séries de `y` para o mesmo conjunto de `x`). No exemplo que esta sendo utilizado, com dados relacionando peso e altura dos cachorros, temos várias raças, e seria importante diferenciar as raças no gráfico.
 {: .text-justify}
 
 Para adicionar mais de uma série em um gráfico de dispersão, basta adicionar um novo elemento de ```plt.scatter()``` com a nova série.
@@ -51,7 +51,7 @@ plt.show()
 
 *Figura 2* - Gráfico de dispersão para a raça Poodle Toy.
 {: .text-center}
-<img style="border: solid 1px black" src="{{ site.url }}{{ site.baseurl }}/images/curso-matplotlib/13/grafico-dispersao-series-03.png" alt="gráfico de dispersão desenhado utilizando o **matplotlib** para a raça Poodle Toy" >
+<img style="border: solid 1px black" src="{{ site.url }}{{ site.baseurl }}/images/curso-matplotlib/13/grafico-dispersao-series-02.png" alt="gráfico de dispersão desenhado utilizando o **matplotlib** para a raça Poodle Toy" >
 {: .text-center}
 
 <br>

@@ -25,7 +25,7 @@ Uma propriedade muito importante em um gráfico é o seu background. Por padrão
 Mas em alguns casos, especialmente para apresentações, é interessante que o fundo do gráfico tenha alguma cor, ou até mesmo que seja transparente.
 {: .text-justify}
 
-<h2><a style="color:black" id="">Preenchimento bordas externas</a></h2>
+<h2><a style="color:black" id="preenchimento-bordas-externas">Preenchimento bordas externas</a></h2>
 
 <img style="border: solid 1px black" src="{{ site.url }}{{ site.baseurl }}/images/curso-matplotlib/generico/banner.png" alt="banner provisório " >
 {: .text-center}
@@ -66,7 +66,7 @@ plt.show()
 <br>
 
 
-Em alguns casos pode acontecer do gráfico exportado "corte" alguma parte do gráfico. Um exemplo bem comum ocorre caso a posição das legendas seja alterada para fora do gráfico:
+Em alguns casos pode acontecer do gráfico exportado "corte" alguma parte do gráfico. Um exemplo bem comum ocorre quando a posição das legendas foi alterada para fora do gráfico:
 {: .text-justify}
 
 ```python
@@ -118,13 +118,15 @@ Voltando a legenda para a posição `best` e com o  ```bbox_inches='tight'```, o
 
 *Figura 4* - Gráfico de dispersão exportando com borda externa amarela.
 {: .text-center}
-<img style="border: solid 1px black" src="{{ site.url }}{{ site.baseurl }}/images/curso-matplotlib/16/grafico-background-03.png" alt="gráfico de dispersão desenhado utilizando o **matplotlib**  com a borda externa amarela">
+<img style="border: solid 1px black" src="{{ site.url }}{{ site.baseurl }}/images/curso-matplotlib/16/grafico-background-003.png" alt="gráfico de dispersão desenhado utilizando o **matplotlib**  com a borda externa amarela">
 {: .text-center}
+
+Observe atentamente as diferenças entre as Figuras 1 e 4.
 
 <br>
 
 
-<h2><a style="color:black" id="">Cor do backgound dos eixos (`Axes`)</a></h2>
+<h2><a style="color:black" id="cor-background">Cor do background dos eixos (Axes)</a></h2>
 
 <img style="border: solid 1px black" src="{{ site.url }}{{ site.baseurl }}/images/curso-matplotlib/generico/banner.png" alt="banner provisório " >
 {: .text-center}
@@ -136,7 +138,7 @@ Para alterar a cor do fundo dos eixos é necessário **acessar** os eixos (`Axes
 ax = plt.gca()
 ```
 
-Esta método permite a edição de diversas outras propriedades dos eixos do gráfico, sendo uma delas o backgound dos eixos, o que é feito aplicando o método `ax.set_facecolor()`. Este método recebe como parâmetro o nome da cor que o background do gráfico terá. Por exemplo, para alterar a cor do backgound do gráfico para amarelo:
+Agora, a variável `ax` contém uma série de informações a respeito dos eixos do gráfico, o que permite a edição de diversas outras propriedades dos eixos do gráfico. Uma delas é o background dos eixos, o que é feito aplicando o método `ax.set_facecolor()`. Este método recebe como parâmetro o nome da cor que o background do gráfico terá. Por exemplo, para alterar a cor do background do gráfico para amarelo:
 {: .text-justify}
 
 ```python
@@ -178,12 +180,12 @@ plt.show()
 <br>
 
 
-<h2><a style="color:black" id="">Adicionando transparência</a></h2>
+<h2><a style="color:black" id="transparencia">Adicionando transparência</a></h2>
 
 <img style="border: solid 1px black" src="{{ site.url }}{{ site.baseurl }}/images/curso-matplotlib/generico/banner.png" alt="banner provisório " >
 {: .text-center}
 
-Em alguns casos, especialmente em posters e banners, é interessante que o gráfico tenha transparência, de forma a facilitar a adição de outros elementos no banner/poster, evitando problemas de sobreposição.
+Em alguns casos, especialmente em pôsteres e banners, é interessante que o gráfico tenha transparência, de forma a facilitar a adição de outros elementos no banner/pôster, evitando problemas de sobreposição.
 {: .text-justify}
 
 *Gif 2* - Gráfico de dispersão exportando com background transparente.
@@ -224,7 +226,7 @@ plt.show()
 
 <br>
 
-Mas observe que as legendas não ficaram completamente transparentes, pois por padrão elas não são completamente transparentes, e é necessário alterar essa transparência diretamente em `plt.legend()`, o que é feito passando um número `float` para  o parâmetro `framealpha`, sendo que `0.0` é completamente transparente, e `1.0` é completamente opaco.
+Mas observe que as legendas não ficaram completamente transparentes, pois, por padrão, elas não são completamente transparentes, e é necessário alterar essa transparência diretamente em `plt.legend()`, o que é feito passando um número `float` para  o parâmetro `framealpha`, sendo que `0.0` é completamente transparente, e `1.0` é completamente opaco.
 {: .text-justify}
 
 Dessa forma, para deixar a legenda transparente, basta:
@@ -242,7 +244,7 @@ plt.legend(framealpha=0.0)
 
 <form id = "quiz" name = "quiz">
 
-<p><strong>Como deixar o gráfico exportado fique com espaçamento justo?</strong></p>
+<p><strong>Como deixar o gráfico exportado com espaçamento justo?</strong></p>
 
 <input type = "radio" id = "mc" name = "question1" value = "a"> Passar o parâmetro <code>tight = True</code> em <code>plt.scatter()</code>
 <p style="font-size: 50%"></p>

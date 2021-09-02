@@ -90,7 +90,7 @@ Este comportamento acontece pois os parâmetros podem ser passados para uma fun�
 
 <br>
 
- Para deixar os macadores maiores (do que o padrão), basta passar um número maior do que `20` para o parãmetro `s`:
+ Para deixar os marcadores maiores (do que o padrão), basta passar um número maior do que `20` para o parãmetro `s`:
 {: .text-justify}
 
 ```python

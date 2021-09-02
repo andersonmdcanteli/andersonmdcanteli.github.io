@@ -46,7 +46,7 @@ plt.show()
 <br>
 
 
-Entretanto, forma não é possível diferenciar as raças! Uma forma de diferenciar as diferentes séries é utilizar diferentes marcadores para cada série
+Entretanto, utilizando esta forma não é possível diferenciar as raças dos cães no gráfico! Uma forma de diferenciar as diferentes séries, é utilizar diferentes marcadores para cada série.
 {: .text-justify}
 
 
@@ -75,7 +75,7 @@ plt.show()
 <br>
 
 
-Contudo os marcadores ficaram pequenos. Como a mudança de tamanho é apenas para fins estéticos, é mais indicado que todos os marcadores tenham o mesmo tamanho. Então, vou criar uma variável chamada `marker_size` que vai receber o valor do tamanho dos marcadores, e vou passar esta variável para o parâmetro `s` em todos os elementos de dispersão.
+Contudo os marcadores ficaram pequenos, e é importante aumenta-los. Como a mudança de tamanho é apenas para fins estéticos, é mais indicado que todos os marcadores tenham o mesmo tamanho. Então, vou criar uma variável chamada `marker_size` que vai receber o valor do tamanho dos marcadores, e vou passar esta variável para o parâmetro `s` em todos os elementos de dispersão.
 {: .text-justify}
 
 ```python

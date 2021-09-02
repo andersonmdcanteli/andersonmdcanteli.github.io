@@ -13,38 +13,89 @@ header:
 
 <br>
 
+# Parte 1
+
 - <a href="/Curso-matplotlib-00">Introdução a introdução</a>
 
-  + <a href="/Curso-matplotlib-01">Introdução</a>
 
-  + <a href="/Curso-matplotlib-02">Interfaces</a>
+- <a href="/Curso-matplotlib-04">Gráfico de dispersão</a> <span>&#10003;</span>
 
-  + <a href="/Curso-matplotlib-03">Elementos gráficos</a>
 
-- <a href="/Curso-matplotlib-04">Gráfico de dispersão</a>
+- <a href="/Curso-matplotlib-18">Gráfico de linhas</a>  <span>&#10003;</span>
 
-  + <a href="/Curso-matplotlib-05">Conjunto de dados</a>
 
-  + <a href="/Curso-matplotlib-06">Criando gráfico de dispersão</a>
+- <a href="/Curso-matplotlib-27">Gráfico com barras de erros</a>  <span>&#10003;</span>
 
-  + <a href="/Curso-matplotlib-07">Tamanho do gráfico</a>
 
-  + <a href="/Curso-matplotlib-08">Edição dos marcadores</a>
+- <a href="/Curso-matplotlib-35">Elementos auxiliares - parte 1</a>  <span>&#10003;</span>
 
-    * <a href="/Curso-matplotlib-09">Tamanho dos marcadores</a>
 
-    * <a href="/Curso-matplotlib-10">Alterando os marcadores</a>
+- <a href="/Curso-matplotlib-46">Gráfico de barras verticais</a>  <span>&#10003;</span>
 
-  + <a href="/Curso-matplotlib-11">Elementos de texto</a>
 
-    * <a href="/Curso-matplotlib-12">Tipos de fontes</a>
+- <a href="/Curso-matplotlib-55">Gráfico de barras horizontais</a>  <span>&#10003;</span>
 
-  + <a href="/Curso-matplotlib-13">Várias séries de dados</a>
 
-    * <a href="/Curso-matplotlib-14">Edição</a>
+- <a href="/Curso-matplotlib-60">Legendas</a>  <span>&#10003;</span>
 
-  + <a href="/Curso-matplotlib-15">Exportando o gráfico</a>
 
-  + <a href="/Curso-matplotlib-16">Plano de fundo</a>
+- <a href="/Curso-matplotlib-68">Gráfico de pizza</a>  <span>&#10003;</span>
 
-  + <a href="/Curso-matplotlib-17">Exercícios resolvidos</a>
+
+- <a href="/Curso-matplotlib-77">Elementos auxiliares - parte 2</a>  <span>&#10003;</span>
+
+
+# Parte 2
+
+- <a href="/">Eixos</a>  Falta rever e escrever
+
+- <a href="/">Subplot</a>  Falta rever e escrever
+
+- <a href="/">Subplots</a>  Falta rever e escrever
+
+
+# Parte 3
+
+- <a href="/">Fill</a>  Faltando exercício
+
+- <a href="/">Fill_between</a>  Faltando exercício
+
+- <a href="/">Boxplot</a>  Faltando exercício
+
+- <a href="/">Histogramas</a>  Falta rever e escrever
+
+- <a href="/">Gráfico cumulativo</a>  Problemas!
+
+- <a href="/">Gráficos com 2 eixos y</a>  Encaminhado
+
+- <a href="/">Gráficos Ternários</a>  Encaminhado
+
+
+# Parte 4
+
+- <a href="/">Gráficos 3D</a>  
+
+- <a href="/">Superfície 3D</a>  
+
+- <a href="/">Superfície de contorno</a>  
+
+
+
+
+
+
+
+# Parte 4
+
+- <a href="/">Pandas (para manipulação de dados e gráficos rápidos)</a>  
+
+
+- <a href="/">Seaborn (para gráficos avançados)</a>  
+
+
+- <a href="/">Plotly (para gráficos interativos)</a>  
+
+
+# Parte 5 (exemplos para inspiração)
+
+- <a href="/"></a>  
