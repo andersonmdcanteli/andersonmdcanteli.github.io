@@ -17,7 +17,7 @@ header:
   <strong>Objetivo</strong>
   <br>
   <p style="text-align: justify">
-  O objetivo do curso é apresentar o delineamento experimental para a otimização e predição de variáveis. Estima-se sua duração do curso em aproximadamente 12 horas, que pode variar dependendo do andamento de cada turma.
+  O objetivo do curso é apresentar o delineamento experimental para a otimização e predição de variáveis. A duração do curso é de aproximadamente 12 horas, o que pode variar dependendo do andamento de cada turma.
   </p>
   <p style="font-size: 25%"></p>
   <p style="text-align: justify">

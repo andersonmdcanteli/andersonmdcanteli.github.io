@@ -47,28 +47,38 @@ header:
 
 # Parte 2
 
-- <a href="/">Eixos</a>  Falta rever e escrever
+- <a href="/">Eixos</a>  
+<!-- Falta rever e escrever -->
 
-- <a href="/">Subplot</a>  Falta rever e escrever
+- <a href="/">Subplot</a>  
+<!-- Falta rever e escrever -->
 
-- <a href="/">Subplots</a>  Falta rever e escrever
+- <a href="/">Subplots</a>  
+<!-- Falta rever e escrever -->
 
 
 # Parte 3
 
-- <a href="/">Fill</a>  Faltando exercício
+- <a href="/">Fill</a>  
+<!-- Faltando exercício -->
 
-- <a href="/">Fill_between</a>  Faltando exercício
+- <a href="/">Fill_between</a>
+ <!-- Faltando exercício -->
 
-- <a href="/">Boxplot</a>  Faltando exercício
+- <a href="/">Boxplot</a>  
+<!-- Faltando exercício -->
 
-- <a href="/">Histogramas</a>  Falta rever e escrever
+- <a href="/">Histogramas</a>  
+<!-- Falta rever e escrever -->
 
-- <a href="/">Gráfico cumulativo</a>  Problemas!
+- <a href="/">Gráfico cumulativo</a>  
+<!-- Problemas! -->
 
-- <a href="/">Gráficos com 2 eixos y</a>  Encaminhado
+- <a href="/">Gráficos com 2 eixos y</a>  
+<!-- Encaminhado -->
 
-- <a href="/">Gráficos Ternários</a>  Encaminhado
+- <a href="/">Gráficos Ternários</a>  
+<!-- Encaminhado -->
 
 
 # Parte 4
@@ -83,7 +93,7 @@ header:
 
 
 
-
+<!-- 
 
 # Parte 4
 
@@ -98,4 +108,4 @@ header:
 
 # Parte 5 (exemplos para inspiração)
 
-- <a href="/"></a>  
+- <a href="/"></a>   -->
